@@ -8,7 +8,7 @@ function ConfirmModal({ isOpen, message, onConfirm, onCancel }) {
         <div className="modal-overlay" onClick={onCancel}>
             <div className="modal-content" onClick={(e) => e.stopPropagation()}>
                 <div className="modal-header">
-                    <h3>⚠️ Konfirmasi</h3>
+                    <h3>Konfirmasi</h3>
                 </div>
                 <div className="modal-body">
                     <p>{message}</p>

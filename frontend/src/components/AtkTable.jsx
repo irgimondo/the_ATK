@@ -4,11 +4,11 @@ import "./AtkTable.css";
 function AtkTable({ atkList, onEdit, onDelete }) {
     return (
         <div className="atk-table-container">
-            <h2>📊 Daftar Stok ATK</h2>
+            <h2>Daftar Stok ATK</h2>
 
             {atkList.length === 0 ? (
                 <div className="empty-state">
-                    <p>📦 Belum ada data ATK</p>
+                    <p>Belum ada data ATK</p>
                     <p className="empty-subtitle">
                         Tambahkan data ATK pertama Anda menggunakan form di
                         samping
@@ -44,14 +44,14 @@ function AtkTable({ atkList, onEdit, onDelete }) {
                                                 onClick={() => onEdit(atk)}
                                                 title="Edit"
                                             >
-                                                ✏️ Ubah
+                                                Ubah
                                             </button>
                                             <button
                                                 className="btn-delete"
                                                 onClick={() => onDelete(atk.id)}
                                                 title="Hapus"
                                             >
-                                                🗑️ Hapus
+                                                Hapus
                                             </button>
                                         </div>
                                     </td>

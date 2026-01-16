@@ -4,7 +4,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.7);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -12,33 +12,27 @@
 }
 
 .modal-content {
-    background: white;
+    background: #2d2d2d;
     border-radius: 10px;
     width: 90%;
     max-width: 400px;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
     animation: slideIn 0.3s ease-out;
+    border: 1px solid #404040;
 }
-
-@keyframes slideIn {
-    from {
-        transform: translateY(-50px);
-        opacity: 0;
-    }
-    to {
-        transform: translateY(0);
-        opacity: 1;
-    }
+to {
+    transform: translateY(0);
+    opacity: 1;
 }
 
 .modal-header {
     padding: 20px;
-    border-bottom: 1px solid #e0e0e0;
+    border-bottom: 1px solid #404040;
 }
 
 .modal-header h3 {
     margin: 0;
-    color: #333;
+    color: #e0e0e0;
     font-size: 1.3rem;
 }
 
@@ -48,14 +42,14 @@
 
 .modal-body p {
     margin: 0;
-    color: #555;
+    color: #b0b0b0;
     font-size: 1rem;
     line-height: 1.5;
 }
 
 .modal-footer {
     padding: 15px 20px;
-    border-top: 1px solid #e0e0e0;
+    border-top: 1px solid #404040;
     display: flex;
     justify-content: flex-end;
     gap: 10px;
@@ -73,21 +67,23 @@
 }
 
 .btn-cancel {
-    background-color: #e0e0e0;
-    color: #555;
+    background-color: #404040;
+    color: #b0b0b0;
+    border: 1px solid #505050;
 }
 
 .btn-cancel:hover {
-    background-color: #d0d0d0;
+    background-color: #505050;
 }
 
 .btn-confirm {
-    background-color: #f56565;
-    color: white;
+    background-color: #dc2626;
+    color: #e0e0e0;
+    border: 1px solid #ef4444;
 }
 
 .btn-confirm:hover {
-    background-color: #e53e3e;
+    background-color: #ef4444;
     transform: translateY(-2px);
-    box-shadow: 0 4px 8px rgba(245, 101, 101, 0.3);
+    box-shadow: 0 4px 8px rgba(220, 38, 38, 0.3);
 }

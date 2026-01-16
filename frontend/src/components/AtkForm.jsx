@@ -107,7 +107,7 @@ function AtkForm({ editingAtk, onSuccess, onCancel, onError }) {
 
     return (
         <div className="atk-form">
-            <h2>{editingAtk ? "✏️ Edit Data ATK" : "➕ Tambah Data ATK"}</h2>
+            <h2>{editingAtk ? "Edit Data ATK" : "Tambah Data ATK"}</h2>
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <label htmlFor="nama">Nama Barang *</label>
@@ -168,7 +168,7 @@ function AtkForm({ editingAtk, onSuccess, onCancel, onError }) {
                             >
                                 {isSubmitting
                                     ? "Menyimpan..."
-                                    : "💾 Simpan Perubahan"}
+                                    : "Simpan Perubahan"}
                             </button>
                             <button
                                 type="button"
@@ -176,7 +176,7 @@ function AtkForm({ editingAtk, onSuccess, onCancel, onError }) {
                                 onClick={handleCancelEdit}
                                 disabled={isSubmitting}
                             >
-                                ✕ Batal
+                                Batal
                             </button>
                         </>
                     ) : (
@@ -185,7 +185,7 @@ function AtkForm({ editingAtk, onSuccess, onCancel, onError }) {
                             className="btn btn-primary"
                             disabled={isSubmitting}
                         >
-                            {isSubmitting ? "Menambah..." : "➕ Tambah Data"}
+                            {isSubmitting ? "Menambah..." : "Tambah Data"}
                         </button>
                     )}
                 </div>

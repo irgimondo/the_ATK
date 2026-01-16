@@ -60,14 +60,14 @@ function App() {
         <div className="app">
             <div className="container">
                 <header className="header">
-                    <h1>📝 Manajemen Stok ATK</h1>
+                    <h1>Manajemen Stok ATK</h1>
                     <p>Aplikasi untuk mengelola stok Alat Tulis Kantor</p>
                 </header>
 
                 {error && (
                     <div className="error-banner">
-                        <span>⚠️ {error}</span>
-                        <button onClick={() => setError(null)}>✕</button>
+                        <span>{error}</span>
+                        <button onClick={() => setError(null)}>×</button>
                     </div>
                 )}
 
