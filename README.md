@@ -2,7 +2,7 @@
 
 Aplikasi web full-stack untuk mengelola stok Alat Tulis Kantor (ATK) dengan fitur CRUD lengkap.
 
-## 🛠️ Teknologi yang Digunakan
+## Teknologi yang Digunakan
 
 ### Backend
 
@@ -49,7 +49,7 @@ the_ATK/
     └── package.json
 ```
 
-## 🚀 Cara Menjalankan Aplikasi
+## Cara Menjalankan Aplikasi
 
 ### 1. Setup Backend
 
@@ -119,45 +119,45 @@ Frontend akan berjalan di: **http://localhost:3000**
 }
 ```
 
-## ✨ Fitur Aplikasi
+## Fitur Aplikasi
 
 ### Frontend
 
--   ✅ Menampilkan daftar stok ATK dalam tabel
--   ✅ Form untuk menambah data baru
--   ✅ Edit data dengan form yang sama
--   ✅ Hapus data dengan konfirmasi
--   ✅ Validasi input sebelum submit
--   ✅ Error handling dengan pesan yang jelas
--   ✅ Loading state saat fetching data
--   ✅ Responsive design (desktop & mobile)
--   ✅ UI modern dan user-friendly
+-   Menampilkan daftar stok ATK dalam tabel
+-   Form untuk menambah data baru
+-   Edit data dengan form yang sama
+-   Hapus data dengan konfirmasi
+-   Validasi input sebelum submit
+-   Error handling dengan pesan yang jelas
+-   Loading state saat fetching data
+-   Responsive design (desktop & mobile)
+-   UI modern dan user-friendly
 
 ### Backend
 
--   ✅ REST API dengan FastAPI
--   ✅ CRUD operations lengkap
--   ✅ Validasi data dengan Pydantic
--   ✅ Error handling dan response yang konsisten
--   ✅ CORS enabled untuk frontend
--   ✅ SQLite database dengan auto-increment ID
--   ✅ API documentation otomatis (Swagger)
+-   REST API dengan FastAPI
+-   CRUD operations lengkap
+-   Validasi data dengan Pydantic
+-   Error handling dan response yang konsisten
+-   CORS enabled untuk frontend
+-   SQLite database dengan auto-increment ID
+-   API documentation otomatis (Swagger)
 
-## 🔧 Validasi Data
+## Validasi Data
 
 -   **nama**: Tidak boleh kosong
 -   **jenis**: Tidak boleh kosong
 -   **qty**: Harus angka integer lebih dari 0
 
-## 📱 Tampilan Responsive
+## Tampilan Responsive
 
 Aplikasi dapat diakses dengan baik di:
 
--   💻 Desktop (1200px+)
--   📱 Tablet (768px - 1199px)
--   📱 Mobile (< 768px)
+-   Desktop (1200px+)
+-   Tablet (768px - 1199px)
+-   Mobile (< 768px)
 
-## 🎨 Desain UI
+## Desain UI
 
 -   Gradient header dengan warna modern
 -   Tabel dengan hover effect
@@ -167,7 +167,7 @@ Aplikasi dapat diakses dengan baik di:
 -   Loading state yang informatif
 -   Empty state ketika belum ada data
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### Backend tidak bisa diakses
 
@@ -186,16 +186,8 @@ Aplikasi dapat diakses dengan baik di:
 -   Database SQLite akan otomatis dibuat saat pertama kali dijalankan
 -   Jika ada error, coba hapus file `atk_database.db` dan restart backend
 
-## 📝 Catatan Pengembangan
+## Catatan Pengembangan
 
 -   Database SQLite disimpan di folder backend dengan nama `atk_database.db`
 -   CORS dikonfigurasi untuk accept request dari `localhost:3000` dan `localhost:5173`
 -   Auto-reload diaktifkan di development mode
-
-## 👨‍💻 Developer
-
-Aplikasi ini dibuat sebagai submission untuk pembelajaran full-stack development dengan React dan FastAPI.
-
----
-
-**Selamat menggunakan! 🎉**
