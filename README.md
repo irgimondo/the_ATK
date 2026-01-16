@@ -1,4 +1,4 @@
-# 📝 Aplikasi Manajemen Stok ATK
+# Aplikasi Manajemen Stok ATK
 
 Aplikasi web full-stack untuk mengelola stok Alat Tulis Kantor (ATK) dengan fitur CRUD lengkap.
 
@@ -17,7 +17,7 @@ Aplikasi web full-stack untuk mengelola stok Alat Tulis Kantor (ATK) dengan fitu
 -   **Axios** - HTTP client
 -   **CSS3** - Styling dengan desain responsive
 
-## 📁 Struktur Proyek
+## Struktur Proyek
 
 ```
 the_ATK/
@@ -88,7 +88,7 @@ npm start
 
 Frontend akan berjalan di: **http://localhost:3000**
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint        | Deskripsi                           |
 | ------ | --------------- | ----------------------------------- |
