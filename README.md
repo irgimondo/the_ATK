@@ -157,9 +157,3 @@ Frontend: **http://localhost:3000**
 
 - Database SQLite akan otomatis dibuat saat pertama kali dijalankan
 - Jika ada error, coba hapus file `atk_database.db` dan restart backend
-
-## Catatan Pengembangan
-
-- Database SQLite disimpan di folder backend dengan nama `atk_database.db`
-- CORS dikonfigurasi untuk accept request dari `localhost:3000` dan `localhost:5173`
-- Auto-reload diaktifkan di development mode
